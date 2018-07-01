@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>dslaughing</title>
+	</head>
+	<body>
+		<style>
+			#table-wrapper table{
+				margin:50px auto;
+				border-collapse: collapse;
+				text-align: center;
+			}
+			#table-wrapper table td{padding:3px}
+		</style>
+		<form>
+			<fieldset>
+				<legend>地区</legend>
+			<div id="region-radio-wrapper">
+				华东<input type="checkbox" value="华东" >
+				华南<input type="checkbox" value="华南" >
+				华北<input type="checkbox" value="华北">
+				全选<input type="checkbox" value="all">
+			</div>
+			</fieldset>
+			<fieldset>
+				<legend>产品</legend>
+			<div id="product-radio-wrapper">
+				手机<input type="checkbox" value="手机" >
+				笔记本<input type="checkbox" value="笔记本">
+				智能音箱<input type="checkbox" value="智能音箱">
+				全选<input type="checkbox" value="all">
+			</div>
+			</fieldset>
+		</form>
+		<div id="table-wrapper"></div>
+		<script type="text/javascript" src="js/app.js" ></script>		
+		<script type="text/javascript" src="js/ife31data.js" ></script>
+		<script type="text/javascript" src="js/table.js" ></script>
+		<script type="text/javascript" src="js/GenCheckbox.js" ></script>
+
+
+	</body>
+</html>
