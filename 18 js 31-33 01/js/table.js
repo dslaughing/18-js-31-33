@@ -1,4 +1,9 @@
 			function toggle(e,container){
+				if(e.target.checked==false){
+					if([].filter.call(container.children,function(d){return d.checked==true}).length==0){
+						e.target.checked=true;
+					}
+				}
 					switch(e.target.value){
 						case "all":
 						if(e.target.checked==true){
